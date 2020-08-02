@@ -1,0 +1,131 @@
+body, html {
+    margin: 0px;
+    background-color: #1b1f20;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    background-color: rgb(65, 66, 71);
+    align-items: flex-end;
+}
+
+
+ul{
+    padding: 10px;
+    margin-top: 0px; 
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    padding: 20px 30px;
+    align-items: flex-end;   
+}
+
+a{
+    color: rgb(151, 149, 147);
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+}
+
+
+#box-container{
+    height: 600px;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;   
+}
+
+#box-1{
+    width: 30%;  
+    
+}
+
+#box-2{
+    width: 40%;
+    height: 80%;  
+    
+}
+
+a:hover{
+    color: #ffffff;
+    transition: 1s;
+    text-decoration: underline;  
+}
+
+main {
+    color: rgb(209, 207, 205);
+    align-items: center;
+    margin: 20px;
+    font-size: 26px;
+}
+
+.photo{
+    height: 500px;
+    width: 400px;
+}
+.main-photo {
+    padding: -15px;
+    width: 40em;
+}
+
+.btn{
+        padding: 15px 25px 15px 25px;
+        color: rgb(209, 207, 205);
+        border-color: #9e967d;
+        border-style: solid;
+        border-width: 1px;
+        background-color: rgb(65, 66, 71);
+        font-family: 'Raleway', sans-serif;;
+      }
+
+p{
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+.container {
+    color: black;
+    background-color: rgb(124, 124, 124);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 450px;
+}
+    
+
+span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 26px;
+    color: white;
+}
+
+.contact{
+    font-size: 16px;
+    color: rgb(179, 174, 174); 
+}
+
+#return{
+    font-size: 14px;
+    color: rgb(119, 120, 124);
+    line-height: 16px;
+    margin: 0px 60px 20px 40px;
+}
+
+#rights{
+    color:#e4e0d6;
+    margin: 0px 60px 20px 0px;
+   
+}
+
+.container-2{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+
+
